@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f9d71c;
+    display: grid;
+    place-items: center;
+}
+form{
+ margin-top: 10vw;
+ 
+ 
+    background-color: #fd5e53;
+    padding: 3% 12%;
+    box-sizing: border-box;
+    box-shadow:   1px 2px 2px 1px red;
+    border-radius: 10px;
+}
+#Num{
+ width: 4vw;
+ height: 1.5vw;
+ text-align: center;
+ margin-left: 4rem;
+}
+#temp_diff{
+    width: 5vw;
+    height: 1.5vw;
+    background-color: white;
+    margin: 2vw 0;
+    text-align: center;
+}
+#btn{
+    width: 5vw;
+    height: 1.5vw;
+    margin-left: 6rem;
+    border: 0px solid black;
+ 
+}
+.Heading{
+    font-size: 30px;
+    text-align: center;
+}
+#Result{
+    margin-left: 5rem;
+   
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+}
+
+
+
+
+
+    
+    
+
+
+@media (min-width:300px) and  (max-width:480px)
+ {
+       body{
+        background-color:white;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    form{
+margin-top: 10rem;
+background-color: #f68656;
+box-shadow:   6px 6px 6px 0px rgb(0,0,0,0.15);
+padding: 2.5rem;
+height: 8.5rem;
+
+
+    }
+    #Num{
+        width: 4rem;
+        height: 1rem;
+    }
+    #temp_diff{
+        width: 5rem;
+        height: 1.2rem;
+    }
+    #btn{
+        width: 6rem;
+        height: 1.3rem;
+       
+        position: relative;
+        right: .5rem;
+        top: .5rem;
+    }
+    .Heading{
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        bottom: 2rem;
+    position: relative; 
+   }
+    .input{
+      position: relative;
+      right: 1.5rem;
+      bottom: 2.9rem;
+    }
+    #Result{
+        position: relative;
+       top: 1rem;
+       font-size: 17px;
+    }
+
+    }
+    
+
+
+    @media (min-width:481px) and  (max-width:680px)  {
+
+    
+    body{
+        background-color:white;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    form{
+        margin-top: 10rem;
+        background-color: #f68656;
+        box-shadow: 6px 6px 6px 0px rgb(0,0,0,0.15);
+        padding: 4.5rem;
+        height: 11.5rem;
+    }
+
+    
+    #Num{
+        width: 4rem;
+        height: 1rem;
+    }
+    #temp_diff{
+        width: 5rem;
+        height: 1.2rem;
+    }
+    #btn{
+        width: 6rem;
+        height: 1.3rem;
+       
+        position: relative;
+        right: .5rem;
+        top: .5rem;
+    }
+    .Heading{
+        font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        bottom: 3rem;
+        position: relative;
+        }
+    .input{
+        position: relative;
+right: -0.5rem;
+bottom: 3.5rem;
+    }
+    #Result{
+        position: relative;
+       top: 1rem;
+       font-size: 17px;
+    }
+
+    }
+    @media (min-width:681px) and  (max-width:1080px){
+
+        body{
+            background-color:white;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        form{
+            margin-top: 10rem;
+            background-color: #f68656;
+            box-shadow: 6px 6px 6px 0px rgb(0,0,0,0.15);
+            padding: 6.5rem;
+            height: 13.5rem;
+        }
+    
+        
+        #Num{
+            width: 4rem;
+            height: 1rem;
+        }
+        #temp_diff{
+            width: 5rem;
+            height: 1.2rem;
+        }
+        #btn{
+            width: 6rem;
+            height: 1.3rem;
+           
+            position: relative;
+            right: .5rem;
+            top: .5rem;
+        }
+        .Heading{
+            font-size: 2rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            bottom: 6rem;
+            position: relative;
+            }
+        .input{
+            position: relative;
+    right: -0.5rem;
+    bottom: 5.5rem;
+        }
+        #Result{
+            position: relative;
+           top: 2rem;
+           font-size: 23px;
+        }
+    
+
+
+
+    }
+
+
+
+
+
+
+
+
+
